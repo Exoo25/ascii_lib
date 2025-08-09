@@ -38,7 +38,7 @@ print(image_to_ascii('ok.jpg',80)) #image to ascii
 ```bash
 git clone https://github.com/Exoo25/ascii_lib/
 cd ascii-lib
-pip install .
+mv ~/ascii_lib $(python -c "import site; print(site.getsitepackages()[0])")/
 ```
 
 ## ⚠️ Important
