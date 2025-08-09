@@ -1,4 +1,4 @@
-# 🔠 ASCII-Lib
+# 🔠 ASCII-Lib The Ascii Manuplation
 
 A lightweight Python library for creating **ASCII art** from text and images.  
 Perfect for making your terminal output stylish with banners, images-to-ASCII conversions, colors, and even animations!  
