@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ascii-art-lib"
+version = "0.1.0"
+description = "A simple Python library for ASCII art"
+authors = [
+    { name = "Mehdi Ali", email = "you@example.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/yourusername/ascii-art-lib"
+
+[tool.setuptools]
+packages = ["asciiart"]
+
+[project.scripts]
+asciiart = "asciiart.cli:main"
