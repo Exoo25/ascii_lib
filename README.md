@@ -18,13 +18,14 @@ Perfect for making your terminal output stylish with banners, images-to-ASCII co
 
 ---
 
-## 📸 Usage Guide
-| class            | description                 | arg 1                              | other args                                                                                      |
-|------------------|-----------------------------|------------------------------------|-------------------------------------------------------------------------------------------------|
-| color_text       | add colors & style to text  | text: *the text you want to color* | - `*`styles: *the styles like RED,BG_BRIGHT_GREEN,BOLD                                          |
-| animate_pyfiglet | animate ascii art           | text: *the text*                   | - font: *the font* - delay *the delay of animation* - repeat *times the animation will be tick* |
-| text_to_ascii    | make text to ascii          | text: *the text*                   | - font: *the font*                                                                              |
-| image_to_ascii   | convert images to ascii art | path: *the path of the image*      | - ascii_chars: *chars used in the art* - new_width: *the new width of the ascii image*          |
+📸 Usage Guide
+
+| class           | description                  | arg 1                           | other args                                                                      |
+|-----------------|------------------------------|---------------------------------|---------------------------------------------------------------------------------|
+| color_text      | add colors & style to text   | text: the text you want to color| *styles: the styles like `RED`, `BG_BRIGHT_GREEN`, `BOLD`                       |
+| animate_pyfiglet| animate ascii art            | text: *the text*                | font: the font, delay: delay of animation, repeat: times animation will tick    |
+| text_to_ascii   | make text to ascii           | text: the text                  | font: the font                                                                  |
+| image_to_ascii  | convert images to ascii art  | path: the path of the image     | ascii_chars: chars used in the art, new_width: the new width of the ascii image |
 
 ``python
 from ascii_lib import *
