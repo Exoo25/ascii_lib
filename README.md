@@ -27,7 +27,7 @@ Perfect for making your terminal output stylish with banners, images-to-ASCII co
 | text_to_ascii   | make text to ascii           | text: the text                  | font: the font                                                                  |
 | image_to_ascii  | convert images to ascii art  | path: the path of the image     | ascii_chars: chars used in the art, new_width: the new width of the ascii image |
 
-``python
+```python
 from ascii_lib import *
 print(color_text(text_to_ascii('hello world','slant'),RED,BOLD,BG_WHITE)) #colored Ascii
 print(image_to_ascii('ok.jpg',80)) #image to ascii
